@@ -1,0 +1,72 @@
+body{
+    background-position: no-repeat;
+background-position: center;
+    background-size: cover;  
+    background-image: url(../images/WhatsApp\ Image\ 2023-08-07\ at\ 12.21.02\ PM.jpeg);
+}
+
+p{
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    background-color: rgba(212, 212, 21, 0.456);
+    color: #fff;
+   
+}
+
+.formContainer{
+    width: 70vh;
+    border-radius: 10px;
+    background-color: rgba(41, 61, 133, 0.5);
+    margin: 30px auto;
+    
+}
+
+.formContainer div{
+    margin-bottom: 10px;
+}
+
+form{
+    padding: 30px;
+}
+
+label{
+    color: #fff;
+}
+
+label:not(.gender){
+    display: inline-block ;
+    margin-bottom: 5px; 
+}
+
+input:not(input[type=password]):not(input[type=checkbox]){
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+input[type=password]{
+padding-left: 10px 20px;
+}
+#password{
+padding: 10px 20px;
+    margin-right: 20px;
+}
+#confirmpassword{
+    padding: 10px 20px; 
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus{
+    outline: none;
+    border: 1px solid black;
+}
+input[type=submit]{
+    border: none;
+    background-color: rgb(8, 8, 62);
+    color: #fff;
+}
+.gender{
+    margin-right: 10px;
+}
